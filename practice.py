@@ -76,7 +76,7 @@ def has_balanced_brackets(phrase):
       if char in bracket_dict.iteritems():
         char.pop()
 
-    return bracket_pairs == []
+    return bracket_pairs == [] 
 
  
 
