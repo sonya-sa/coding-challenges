@@ -48,7 +48,7 @@ def is_anagram_of_palindrome(word):
         if count % 2 != 0:
             if seen_an_odd:
                 return False
-            seen_an_odd = True
+            seen_an_odd = True 
 
     return True
 
