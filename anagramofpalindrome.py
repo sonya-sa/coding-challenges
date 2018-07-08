@@ -37,7 +37,7 @@ def is_anagram_of_palindrome(word):
     # Count each letter
 
     for letter in word:
-        count = seen.get(letter, 0)
+        count = seen.get(letter, 0) 
         seen[letter] = count + 1
 
     # It's a palindrome if the number of odd-counts is either 0 or 1
